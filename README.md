@@ -1,2 +1,2 @@
-# js-hindi-youtube-
+# js-hindi-youtube
 Chai Aur code JavaScript
