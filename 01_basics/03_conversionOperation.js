@@ -54,5 +54,15 @@ let stringSomeNumber = String(someNumber)
 console.log(typeof(stringSomeNumber))
 console.log(stringSomeNumber)
 
+console.log("1" + 2)  // 12
+console.log(1 + "2")  // 12
+console.log("1" + 2 + 2)  //122
+console.log(1 + 2 + "2")  //32
 
+console.log(3 + 4 * 5 % 3);
+console.log((3 + 4) * 5 % 3);
 
+console.log(true)  // true
+console.log(+true) // 1
+console.log("")  // 
+console.log(+"") // 0
