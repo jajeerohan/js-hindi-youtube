@@ -13,7 +13,7 @@ console.log(marvel);
   console.log(marvel[3][1]); // batMan
 
 // Push Method add elements to the existing array
-//Concat Method returns a new array
+//Concat Method returns a new array of all the elements
 
 marvel = ["ironMan", 'blackPanther', "spiderMan"]
 dc = ["superMan", "batMan", 'flash']
@@ -25,7 +25,12 @@ let arr1 = [0, 1, 2, 3, 4]
 let arr2 = [5, 6, 7, 8, 9]
 let arr3 = [10, 11, 12, 13, 14]
 arr123 = [...arr1, ...arr2, ...arr3]
-console.log(arr123);
+console.log(arr123); // returns all the elements in the form an Array
+/* arr123 [
+    0,  1,  2, 3,  4,  5,
+    6,  7,  8, 9, 10, 11,
+   12, 13, 14
+ ] */
 
 //flat method converts all the inner arrays into a single array given the depth
 const anotherArray = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]] //depth = 3
@@ -42,4 +47,4 @@ const score1 = 100
 const score2 = 200
 const score3 = 300
 
-console.log(Array.of(score1, score2, score3)); [100, 200, 300]
+console.log(Array.of(score1, score2, score3)); // [100, 200, 300]
