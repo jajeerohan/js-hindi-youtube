@@ -1,6 +1,6 @@
 "use stirct" //treats allthe JS code as newer version
 
-// alert(3+3) // doesn't work as we r using noode.js not browser
+// alert(3+3) // doesn't work as we r using node.js not browser
 
 let name = "rohan"
 let age = 10
